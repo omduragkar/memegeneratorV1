@@ -1,0 +1,18 @@
+.top{
+  font-size: x-large;
+}
+/* giving box shadow to image */
+.imgtab{
+  box-shadow: -3px 6px 7px -1px rgba(143,143,143,0.75);
+  -webkit-box-shadow: -3px 6px 7px -1px rgba(143,143,143,0.75);
+  -moz-box-shadow: -3px 6px 7px -1px rgba(143,143,143,0.75);
+  border-radius: 10px;
+}
+
+/* Changing Width and height of image at media screens: */
+@media screen and (max-width:550px ) {
+  .imgtab{
+    height: 30%;
+    width: 80%;
+  }
+}
